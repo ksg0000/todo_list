@@ -1,16 +1,14 @@
-# todo_list
+### Project Directory Structure
 
-A new Flutter project.
+lib   
+├── home   
+│ ├── home_controller.dart  # todo-list 메인화면 GetXController   
+│ └── home_page.dart        # todo-list 메인화면 UI   
+│    
+├── models    
+│ ├── board_item_model.dart # board_item 모델 정의      
+│ └── board_list_model.dart # board_list 모델 정의     
+│    
+└── main.dart   
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###
